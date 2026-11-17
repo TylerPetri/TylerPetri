@@ -1,67 +1,57 @@
-# Hi, I'm Tyler 👋
+# Tyler Petri
 
-I'm a software developer with a background in full-stack development and a growing focus on backend engineering, system design, and distributed systems.
+**Full-Stack Software Engineer** · Go · TypeScript · PostgreSQL · React / Next.js
 
-I've always enjoyed building things, but what keeps me interested is understanding how they work and figuring out how they could work better.
+I design and build software across the stack, with a particular focus on backend architecture, distributed systems, and reliability. Go is my strongest language today; I also work with TypeScript and have explored Python, Rust, and C++ to broaden how I approach programming and systems problems.
 
-I like tackling problems I haven't encountered before, exploring different approaches, and learning enough about a system to make informed decisions about its design.
+I enjoy working through unfamiliar problems, understanding the trade-offs behind technical decisions, and building systems that remain understandable and dependable as they grow.
 
-## What I'm building
+## Selected work
 
-### [Velvet Hours Studio](https://velvethours.studio)
+### [Velvet Hours Studio](https://velvethours.studio) — Multi-tenant commerce platform
 
-I'm the founder and developer behind Velvet Hours Studio, where I've been building a multi-tenant commerce platform and a collection of custom storefronts.
+I founded Velvet Hours Studio and independently develop its shared commerce infrastructure and custom storefronts. Each storefront has its own design and customer experience while using the same underlying platform.
 
-The idea is to give each storefront its own identity and experience while sharing the same underlying commerce infrastructure.
+My work spans API design, databases, authentication, payment flows, asynchronous processing, frontend development, deployment, and operational recovery.
 
-It's grown into my largest engineering project so far, covering everything from backend architecture and databases to frontend development, deployment, security, and maintenance.
+**Engineering focus**
 
-**Some of the technologies involved:**
-
-- **Backend:** Go microservices, PostgreSQL, Redis, REST APIs, sqlc
-- **Infrastructure:** Docker, Linux, distributed tracing, monitoring, event-driven communication
+- **Backend:** Go microservices, REST APIs, PostgreSQL, Redis, sqlc
 - **Frontend:** SvelteKit 5, TypeScript, SCSS
-- **Systems:** Authentication, inventory, orders, payments, bookings, and administrative tools
+- **Infrastructure:** Docker, Linux, event-driven communication, backup and recovery tooling
+- **Domains:** Authentication, catalog, inventory, orders, payments, bookings, and administration
 
-A lot of my recent work has focused on reliability: handling concurrent operations, preventing duplicate transactions, recovering from failures, and making sure systems behave predictably when something goes wrong.
+Recent work has centered on correctness under failure: tenant isolation, concurrent operations, transaction deduplication, idempotency, and recovery from interrupted workflows. I care about how a system behaves when requests are repeated, dependencies fail, or a process stops at the wrong moment.
 
-Some parts of the platform are already in production, while others are still being developed and tested.
+The platform includes production components and work still undergoing development and testing. Its core implementation is private; the storefront experiences are accessible through [Velvet Hours Studio](https://velvethours.studio).
 
-The core platform remains private, but you can explore the storefronts through [Velvet Hours Studio](https://velvethours.studio).
+## Technical toolkit
 
-## Other projects
+| Area | Technologies |
+| --- | --- |
+| **Primary backend** | Go, PostgreSQL, REST APIs, Redis, sqlc |
+| **Frontend** | TypeScript, SvelteKit, React, Next.js, SCSS |
+| **Infrastructure & systems** | Docker, Linux, event-driven architecture, concurrency, testing, backup and recovery |
+| **Additional language experience** | Python, Rust, C++ |
 
-I also enjoy working on smaller projects to explore particular areas of software engineering.
+I developed my understanding of pointers and memory-oriented programming further through C++, which also sharpened my appreciation for Go's approach to building concurrent backend services. I continue exploring Rust and Python, while concentrating most of my production-oriented backend work in Go.
 
-**[Go Microservices SDK](https://github.com/TylerPetri/1m-sdk-microservices)**  
-An experimental Go backend with gRPC, PostgreSQL, authentication, generated contracts, and observability.
+### Other projects
 
-**[P2P Networking](https://github.com/TylerPetri/p2p-networking-project)**  
-A Go networking project exploring encrypted communication, peer discovery, concurrency, and distributed systems.
+| Project | Focus |
+| --- | --- |
+| [Go Microservices SDK](https://github.com/TylerPetri/1m-sdk-microservices) | Experimental Go backend exploring gRPC, PostgreSQL, authentication, generated contracts, and observability. |
+| [P2P Networking](https://github.com/TylerPetri/p2p-networking-project) | Encrypted peer-to-peer communication, discovery, concurrency, and networking in Go. |
+| [Moth Milk](https://github.com/TylerPetri/moth-milk) | A SvelteKit storefront and fiction library combining full-stack engineering with distinctive interactive design. |
 
-**[Moth Milk](https://github.com/TylerPetri/moth-milk)**  
-A SvelteKit storefront and horror-fiction library combining full-stack development with creative web design.
+## Engineering interests
 
-These projects give me room to experiment, learn, and explore ideas that might eventually become useful in something larger.
+Backend systems · Concurrency · Networking · Security · Data integrity · Fault tolerance · Software architecture
 
-## What interests me
+I value clear interfaces, deliberate trade-offs, practical testing, and code that other engineers can understand and maintain. I'm particularly interested in the boundary between designing something that works and engineering something that continues to work under real-world conditions.
 
-I'm particularly interested in backend architecture, concurrency, networking, security, and software reliability.
+## Connect
 
-I enjoy understanding the reasoning behind engineering decisions, questioning assumptions, and finding better ways to approach problems.
+I'm open to software engineering opportunities and thoughtful technical collaboration, especially with teams that value ownership, reliability, and continuous learning.
 
-I don't think there's a point where you're simply finished learning programming. There's always another layer to understand, another problem to solve, or an approach worth reconsidering.
-
-That's a big part of why I enjoy it.
-
-## Let's connect
-
-I'm open to software engineering opportunities, collaborating with other developers, and contributing to interesting projects.
-
-I enjoy exchanging ideas and working with people who care about what they're building. I'm especially interested in teams where I can contribute technically, learn from others, and participate in shaping solutions.
-
-Feel free to reach out!
-
-[LinkedIn](https://www.linkedin.com/in/tylerpetri93/) · [Velvet Hours Studio](https://velvethours.studio)
-
-**Email:** tyler.petri.contact@gmail.com
+[LinkedIn](https://www.linkedin.com/in/tylerpetri93/) · [Velvet Hours Studio](https://velvethours.studio) · **tyler.petri.contact@gmail.com**
